@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORION Intelligence | Recycling Future</title>
+    <style>
+        :root {
+            --primary: #2196F3;
+            --bg: #0f1115;
+            --card: #161a1d;
+            --text: #e0e0e0;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: radial-gradient(circle at center, #1a2a3a 0%, #0f1115 100%);
+            border-bottom: 2px solid var(--primary);
+        }
+
+        .logo-text {
+            font-size: 4rem;
+            font-weight: bold;
+            letter-spacing: 5px;
+            margin: 0;
+            color: var(--primary);
+            text-shadow: 0 0 20px rgba(33, 150, 243, 0.5);
+        }
+
+        .tagline {
+            font-size: 1.5rem;
+            color: #888;
+            margin-bottom: 30px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 50px 20px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .feature-card {
+            background: var(--card);
+            padding: 30px;
+            border-radius: 15px;
+            border: 1px solid #333;
+            transition: transform 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+            border-color: var(--primary);
+        }
+
+        .feature-card h3 {
+            color: var(--primary);
+            margin-top: 0;
+        }
+
+        .btn {
+            background: var(--primary);
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            box-shadow: 0 0 20px var(--primary);
+            opacity: 0.9;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            font-size: 0.8rem;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <p style="color: var(--primary); font-weight: bold;">v26 SPECIAL EDITION</p>
+        <h1 class="logo-text">ORION</h1>
+        <p class="tagline">KI-gestützte Analyse für die Recycling-Industrie der nächsten Generation.</p>
+        <a href="#features" class="btn">System entdecken</a>
+    </header>
+
+    <div class="container" id="features">
+        <h2 style="text-align: center; margin-bottom: 50px;">Warum ORION?</h2>
+        <div class="grid">
+            <div class="feature-card">
+                <h3>⚡ Hochgeschwindigkeits-Analyse</h3>
+                <p>Erstellen Sie komplexe Fachberichte über Materialien, Schmelzpunkte und Recycling-Verfahren in Sekunden statt Stunden.</p>
+            </div>
+            <div class="feature-card">
+                <h3>🛡️ Maximale Sicherheit</h3>
+                <p>Ihre Daten bleiben bei Ihnen. Lokale Archivierung und geschützte Zugänge garantieren absolute Diskretion für Ihre Mandanten.</p>
+            </div>
+            <div class="feature-card">
+                <h3>📊 Mandanten-Archiv</h3>
+                <p>Automatisierte Verwaltung aller Berichte nach Kunden sortiert. Perfekt für die direkte Weitergabe an Partner oder Behörden.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" style="text-align: center;">
+        <h2>Bereit für die Zukunft?</h2>
+        <p>Kontaktieren Sie uns für eine exklusive Demo der ORION Suite.</p>
+        <br>
+        <a href="mailto:deine-email@beispiel.de" class="btn">Angebot anfordern</a>
+    </div>
+
+    <footer>
+        &copy; 2026 ORION Intelligence Systems | Entwickelt von Boss & Orion
+    </footer>
+
+</body>
+</html>
